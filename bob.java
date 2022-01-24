@@ -15,7 +15,7 @@ public class bob {
 
         System.out.println("Is this right?");
         String correct = reader.next();
-            if (correct == "yes")
+            if (correct.equals("yes"))
                 System.out.println("Thank you!");
 
 
